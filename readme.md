@@ -1,6 +1,6 @@
-## March 3, 2017 - New Release v0.9.0
+## May 28, 2017 - New Release v0.10.0
 
-The newest release adds Steam DLC functionality. You can find the
+The newest release adds Steam Stats functionality. You can find the
 full list of added features on the
 [releases page](https://github.com/greenheartgames/greenworks/releases).
 
@@ -135,7 +135,7 @@ The NW.js v0.11.2 hello-world demo directory on Mac OS X like:
 
 ### General Prerequisties
 
-* Steamworks SDK 1.38a
+* Steamworks SDK 1.40
 * nodejs
 * node-gyp (or nw-gyp if you use NW.js)
 
@@ -150,7 +150,7 @@ To get the Steamworks SDK:
 ### Nodejs Addon Building Steps
 
 ```shell
-# Change to the Dreenworks source directory
+# Change to the Greenworks source directory
 cd greenworks
 # Install the dependencies
 npm install

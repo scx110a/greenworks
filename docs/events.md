@@ -72,3 +72,12 @@ Returns:
 * `dlc_app_id` Integer: The APPID of a DLC.
 
 Emitted after the user gains ownership of DLC & that DLC is installed.
+
+### Event: 'micro-txn-authorization-response'
+
+Returns:
+* `app_id` Integer: AppID for this microtransaction.
+* `ord_id` String: a 64-bits OrderID provided for the microtransaction.
+* `authorized` Boolean: if user authorized transaction.
+
+Emitted after a user has responded to a microtransaction authorization request.
